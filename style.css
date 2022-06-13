@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+body{
+    /* padding: 80px; */
+    font-family: 'Nunito', sans-serif;
+    margin-right: 95px;
+}
+
+header{
+    display: flex;
+}
+main{
+    display: flex;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+}
+.reco{
+    display: flex;
+}
+.nomreco{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.textreco{
+    text-align: center;
+    padding-left: 20px;
+}
+.secp{
+    display: flex;
+    width:40% ;
+}
+.zone30{
+    width: 30%;
+}
+.zone70{
+    width: 70%;
+}
+.titredate{
+    display: flex;
+}
+.htext{
+    margin: auto;
+    margin-left: 20px;
+}
+.nom{
+    color: deeppink;
+}
+.photo{
+    border-radius: 80%;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.containerphoto{
+    background: black;
+    width : 30%;
+}
+.contactabout{
+    background-color: deeppink;
+    padding: 5px;
+    text-align: center;
+}
+.textabout{
+    margin-bottom: 360px;
+}
+.liencontact, .titleaboutme{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iconesloisirs{
+    background-color: black;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 55px;
+    /* height: auto; */
+}
+.titrecorps{
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-left: 110px;
+    border-bottom: 3px solid deeppink;
+}
+.dates{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.artcorps{
+    padding-bottom: 30px;
+}
+.artcorpsp{
+    padding-bottom: 20px;
+}
+.soustitres{
+    margin-bottom: 10px;
+}
+.soussoustitres{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#siteweb::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_language_white_web.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+#tel::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_call_white_phone.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+#mail::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_mail_white_24dp.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+#formation::before{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_school_black_24dp.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    padding-right: 40px;
+    margin-bottom: -10px;
+}
+#xp::before{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_wallet_black_24dp.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    padding-right: 40px;
+    margin-bottom: -10px;
+}
+#recommand::before{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_edit_black_24dp.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    padding-right: 40px;
+    margin-bottom: -10px;
+}
+.dates::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content:"";
+    background: url(Images/outline_remove_red_eye_black_24dp.png) no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
